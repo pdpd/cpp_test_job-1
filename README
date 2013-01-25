@@ -1,0 +1,6 @@
+It is necessary to install ACE library to run program. I created script (installACE.sh) to automatize this process.
+
+1. The size of pure Data structure is 696 bytes. The ethernet frame size which contains the data is 762 bytes (follow wireshark).
+
+2. In theory You can send package not more often than 4MB / 31 / sizeof(package) times per day.
+
